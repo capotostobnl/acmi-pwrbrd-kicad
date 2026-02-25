@@ -189,7 +189,8 @@
       "track_widths": [
         0.0,
         0.5,
-        2.0
+        2.0,
+        3.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -685,22 +686,22 @@
   "text_variables": {
     "CEE_CME": "NA",
     "CEE_CME_DATE": "NA",
-    "CHECKED_BY": "T. Chiesa",
-    "CHECKED_BY_DATE": "11/21/25",
+    "CHECKED_BY": "",
+    "CHECKED_BY_DATE": "",
     "DEPARTMENT_CHAIRMAN": "NA",
     "DEPARTMENT_CHAIRMAN_DATE": "NA",
-    "DESIGN_APPROVAL": "T. Chiesa",
+    "DESIGN_APPROVAL": "",
     "DESIGN_APPROVAL_DATE": "",
     "DIVISION_HEAD": "NA",
     "DIVISION_HEAD_DATE": "NA",
     "DRAWING_NUMBER": "TBD",
     "DRAWN_BY": "J. Mead",
-    "DRAWN_BY_DATE": "12/9/25",
+    "DRAWN_BY_DATE": "2-24-2025",
     "ENG_PHY_APPROVAL": "J. Mead",
-    "ENG_PHY_APPROVAL_DATE": "11/21/25",
+    "ENG_PHY_APPROVAL_DATE": "2-24-2025",
     "GROUP_LEADER": "D. Padrazo",
     "GROUP_LEADER_DATE": "",
-    "INITIAL_RELEASE_DATE": "11/21/2025",
+    "INITIAL_RELEASE_DATE": "2-24-2025",
     "QA": "NA",
     "QA_CATEGORY": "A3",
     "QA_DATE": "NA",
