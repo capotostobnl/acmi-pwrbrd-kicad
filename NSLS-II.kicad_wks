@@ -445,7 +445,7 @@
 	)
 	(tbtext "${TITLE}"
 		(name "")
-		(pos 36 23.9)
+		(pos 36 27.4002)
 		(option page1only)
 		(font
 			(face "SansSerif")
@@ -505,15 +505,6 @@
 	(tbtext "${REVISION}"
 		(name "")
 		(pos 6.3 9.5)
-		(font
-			(face "SansSerif")
-			(size 2 2)
-		)
-		(justify center)
-	)
-	(tbtext "${COMMENT1}"
-		(name "")
-		(pos 36 9.5)
 		(font
 			(face "SansSerif")
 			(size 2 2)
@@ -943,7 +934,7 @@
 		)
 		(justify center)
 	)
-	(tbtext "A"
+	(tbtext "1"
 		(name "")
 		(pos 85.8 10.9 rtcorner)
 		(option page1only)
@@ -1065,5 +1056,43 @@
 			(face "SansSerif")
 			(size 2 2) bold)
 		(justify center)
+	)
+	(tbtext "${TITLE_LINE2}"
+		(name "")
+		(pos 35.989 22.502)
+		(option page1only)
+		(font
+			(face "SansSerif")
+			(size 2 2)
+		)
+		(justify center)
+	)
+	(tbtext "${TITLE_LINE3}"
+		(name "")
+		(pos 35.989 17.002)
+		(option page1only)
+		(font
+			(face "SansSerif")
+			(size 2 2)
+		)
+		(justify center)
+	)
+	(tbtext "${TITLE}"
+		(name "")
+		(pos 36 27.4002)
+		(option page1only)
+		(font
+			(face "SansSerif")
+			(size 2 2)
+		)
+		(justify center)
+	)
+	(tbtext "${DRAWING_NUMBER}"
+		(name "")
+		(pos 62.489 9.5)
+		(font
+			(face "SansSerif")
+			(size 2 2)
+		)
 	)
 )
