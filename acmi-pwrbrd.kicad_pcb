@@ -4195,7 +4195,7 @@
 		(uuid "aff049d9-18df-420f-884b-346608c9aab6")
 		(at 196.46 124.15 -90)
 		(property "Reference" "J6"
-			(at -25.625 -4.915 180)
+			(at 8.875 -6.815 180)
 			(layer "F.SilkS")
 			(uuid "28c5b5c6-2f5d-4580-af03-254defc6b43f")
 			(effects
@@ -7298,6 +7298,28 @@
 		)
 		(embedded_fonts no)
 	)
+	(gr_rect
+		(start 169 47.6)
+		(end 207.35 52.11875)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "072e2198-23a9-4d5f-8ec1-4055903e0fa0")
+	)
+	(gr_rect
+		(start 191.3 52.7)
+		(end 207.35 57.4125)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "5865906b-a592-4c1f-939b-0c47df5461b9")
+	)
 	(gr_line
 		(start 150 35)
 		(end 210 35)
@@ -7338,13 +7360,13 @@
 		(layer "Edge.Cuts")
 		(uuid "cdeafda7-8a96-4744-bdc9-e9d7985251b6")
 	)
-	(gr_text "AMPLIFIER"
+	(gr_text "Amplifier"
 		(at 161.684 77.318 0)
 		(layer "F.SilkS")
 		(uuid "11b576fa-453a-4e03-b7aa-7352851020de")
 		(effects
 			(font
-				(size 3 3)
+				(size 2 2)
 				(thickness 0.375)
 			)
 			(justify left bottom)
@@ -7362,13 +7384,13 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "RELAY BOARD"
-		(at 161.684 55.22 0)
+	(gr_text "Relay Board"
+		(at 161.6057 59.054 0)
 		(layer "F.SilkS")
 		(uuid "302acac5-c464-4657-9cae-8b498b2e6310")
 		(effects
 			(font
-				(size 3 3)
+				(size 2 2)
 				(thickness 0.375)
 			)
 			(justify left bottom)
@@ -7398,6 +7420,30 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "S/N:"
+		(at 186.675 55.675 0)
+		(layer "F.SilkS")
+		(uuid "6d9c270d-9c8f-4c87-8d33-277036f260b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "D/N:"
+		(at 164.55 50.6 0)
+		(layer "F.SilkS")
+		(uuid "7bef2b79-fa21-4319-81d3-c3e6a2eafef0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "+15V"
 		(at 175.146 198.73 0)
 		(layer "F.SilkS")
@@ -7410,8 +7456,8 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "J. Mead\n2-24-25\nRev 1\n\nS/N: "
-		(at 174.384 48.616 0)
+	(gr_text "J. Mead / M. Capotosto\n2-24-25\nRev 1"
+		(at 172.675 47.025 0)
 		(layer "F.SilkS")
 		(uuid "9ab6296e-ef1d-41b4-8cb6-6664c3d799c9")
 		(effects
@@ -7422,16 +7468,17 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "ACMI-II Power Distribution Board"
-		(at 161.4 40.15 0)
+	(gr_text "ACMI-II \nPower Distribution Board"
+		(at 180.2 42.175 0)
 		(layer "F.SilkS")
 		(uuid "9adc8ca0-e600-470d-8ff1-d04d25b4bc13")
 		(effects
 			(font
-				(size 1.5 1.5)
-				(thickness 0.15)
+				(size 2 2)
+				(thickness 0.35)
+				(bold yes)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 	)
 	(gr_text "-5V"
@@ -7446,25 +7493,25 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "PULSER B"
+	(gr_text "Pulser B"
 		(at 161.684 134.214 0)
 		(layer "F.SilkS")
 		(uuid "b21a9b13-f078-4b5f-8f84-f74554ee3ada")
 		(effects
 			(font
-				(size 3 3)
+				(size 2 2)
 				(thickness 0.375)
 			)
 			(justify left bottom)
 		)
 	)
-	(gr_text "PULSER A"
+	(gr_text "Pulser A"
 		(at 161.684 106.02 0)
 		(layer "F.SilkS")
 		(uuid "b8ec35d7-55d9-4b5f-bc35-3524d3a3de63")
 		(effects
 			(font
-				(size 3 3)
+				(size 2 2)
 				(thickness 0.375)
 			)
 			(justify left bottom)
@@ -7482,25 +7529,25 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "CHAIN A"
+	(gr_text "Chain A"
 		(at 161.684 158.09 0)
 		(layer "F.SilkS")
 		(uuid "c680559b-faf9-4353-ad56-8d47fcf0c28d")
 		(effects
 			(font
-				(size 3 3)
+				(size 2 2)
 				(thickness 0.375)
 			)
 			(justify left bottom)
 		)
 	)
-	(gr_text "CHAIN B"
+	(gr_text "Chain B"
 		(at 161.684 175.108 0)
 		(layer "F.SilkS")
 		(uuid "d6506aa9-e34a-4d54-9b62-2e3f33d39ce0")
 		(effects
 			(font
-				(size 3 3)
+				(size 2 2)
 				(thickness 0.375)
 			)
 			(justify left bottom)
@@ -7518,16 +7565,16 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "POWER INPUT"
-		(at 188.862 115.926 270)
+	(gr_text "Power \nInput"
+		(at 196.025 99.25 0)
 		(layer "F.SilkS")
 		(uuid "f3780ca5-dba0-42b6-ab45-47ba393379cd")
 		(effects
 			(font
-				(size 3 3)
+				(size 2 2)
 				(thickness 0.375)
 			)
-			(justify bottom)
+			(justify left bottom)
 		)
 	)
 	(segment
